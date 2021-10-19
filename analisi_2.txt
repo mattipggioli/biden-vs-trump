@@ -1,0 +1,674 @@
+PROGRAMMA 2 - ANALISI LINGUISTICA DEI FILE: biden.txt, trump.txt
+________________________________________________________________
+
+
+10 POS (PART-OF-SPEECH) PIÙ FREQUENTI:
+
+
+File: biden.txt
+
+NN	1389
+IN	1115
+DT	952
+PRP	924
+.	762
+,	621
+VB	544
+JJ	534
+NNS	520
+RB	519
+
+
+
+
+10 POS (PART-OF-SPEECH) PIÙ FREQUENTI:
+
+
+File: trump.txt
+
+PRP	2844
+NN	2196
+.	2156
+DT	1855
+IN	1713
+,	1644
+RB	1452
+JJ	1185
+VBP	1169
+NNP	1137
+
+
+
+
+20 SOSTANTIVI PIÙ FREQUENTI:
+
+
+File: biden.txt
+
+people		43
+jobs		39
+Trump		31
+America	30
+plan		27
+president	27
+President	24
+tax		22
+job		22
+country	22
+year		20
+time		18
+%		18
+years		18
+world		15
+money		15
+way		15
+lot		14
+workers	14
+Donald		13
+
+
+
+
+20 SOSTANTIVI PIÙ FREQUENTI:
+
+
+File: trump.txt
+
+people		102
+country	70
+Joe		59
+years		57
+Biden		48
+%		47
+way		42
+America	39
+lot		32
+time		32
+Thank		31
+president	30
+job		29
+thing		29
+history	28
+Carolina	28
+North		27
+Trump		27
+China		26
+vote		26
+
+
+
+
+20 VERBI PIÙ FREQUENTI:
+
+
+File: biden.txt
+
+'s	121
+going	117
+'re	110
+have	65
+is	65
+are	56
+was	45
+be	45
+'m	41
+do	38
+said	37
+get	30
+make	29
+did	29
+'ve	29
+got	26
+been	24
+know	23
+had	22
+say	18
+
+
+
+
+20 VERBI PIÙ FREQUENTI:
+
+
+File: trump.txt
+
+'s	361
+'re	210
+have	204
+do	192
+is	162
+said	135
+was	134
+be	121
+going	119
+are	101
+want	79
+know	74
+did	73
+got	72
+get	69
+'m	68
+see	55
+'ve	55
+been	53
+think	51
+
+
+
+
+20 BIGRAMMI COMPOSTI DA UN SOSTANTIVO SEGUITO DA UN VERBO
+
+
+File: biden.txt
+
+('fact', 'is')			5
+('heart', 'goes')		4
+('plan', 'is')			3
+('anything', 'done')		2
+('Fauci', 'said')		2
+('disease', 'was')		2
+('people', 'have')		2
+('people', 'based')		2
+('people', 'are')		2
+('Trump', 'is')		2
+('McConnell', 'said')		2
+('layoffs', 'have')		2
+('analysis', 'put')		2
+('universities', 'tuition')	2
+('jobs', 'lost')		2
+('America', 'is')		2
+('president', 'put')		2
+('families', 'are')		2
+('America', 'has')		2
+('everyone', 'struggling')	2
+
+
+
+
+20 BIGRAMMI COMPOSTI DA UN SOSTANTIVO SEGUITO DA UN VERBO
+
+
+File: trump.txt
+
+('people', 'are')		6
+('polls', 'are')		4
+('America', 'is')		4
+('guy', 'is')			4
+('cases', 'are')		3
+('problem', 'is')		3
+('wall', 'is')			3
+('country', 'is')		3
+('Carolina', 'want')		3
+('hell', 'is')			2
+('Baron', 'doing')		2
+('election', 'is')		2
+('companies', 'are')		2
+('Nobody', 'thought')		2
+('farmers', 'are')		2
+('people', 'do')		2
+('everybody', 'agrees')	2
+('Democrats', 'do')		2
+('Please', 'do')		2
+('numbers', 'are')		2
+
+
+
+
+20 BIGRAMMI COMPOSTI DA UN AGGETTIVO SEGUITO DA UN SOSTANTIVO
+
+
+File: biden.txt
+
+('long', 'time')		5
+('proud', 'Democrat')		5
+('American', 'people')		5
+('American', 'worker')		5
+('economic', 'growth')		5
+('first', 'home')		4
+('American', 'history')	4
+('small', 'businesses')	4
+('fair', 'shot')		4
+('economic', 'crisis')		4
+('corporate', 'America')	4
+('prevailing', 'wage')		4
+('new', 'jobs')		3
+('American', 'president')	3
+('only', 'power')		3
+('high', 'quality')		3
+('essential', 'workers')	3
+('fewer', 'jobs')		3
+('big', 'corporations')	3
+('economic', 'plan')		3
+
+
+
+
+20 BIGRAMMI COMPOSTI DA UN AGGETTIVO SEGUITO DA UN SOSTANTIVO
+
+
+File: trump.txt
+
+('good', 'job')		11
+('last', 'night')		10
+('social', 'security')		9
+('little', 'bit')		7
+('suburban', 'women')		7
+('fake', 'news')		7
+('long', 'time')		7
+('favored', 'nations')		6
+('American', 'dream')		6
+('Indian', 'country')		5
+('half', 'years')		5
+('second', 'amendment')	5
+('first', 'time')		5
+('American', 'people')		4
+('illegal', 'aliens')		4
+('many', 'times')		4
+('Last', 'night')		4
+('other', 'day')		4
+('first', 'nation')		4
+('Second', 'Amendment')	4
+
+
+
+
+20 CON PROBABILITÀ CONGIUNTA MASSIMA
+
+
+File: biden.txt
+
+,	the	0.0017908812218277496
+,	to	0.0015449047648538176
+to	the	0.0010324242792501357
+in	.	0.000931481995610185
+,	a	0.0009234905577617792
+,	and	0.0008889675462566659
+and	,	0.0008889675462566659
+'s	.	0.0008422975492219758
+.	I	0.0008224787833579293
+,	in	0.0008112907703701611
+'s	,	0.0007336139944836564
+,	I	0.0007163524887310997
+that	.	0.0005945629759213947
+and	the	0.0005940765405741005
+going	.	0.0005796989015233598
+you	.	0.000564834827125325
+in	the	0.0005421669399414121
+to	a	0.0005323826403844074
+of	the	0.0005277476064323319
+that	,	0.0005178451725766986
+
+
+
+
+20 CON PROBABILITÀ CONGIUNTA MASSIMA
+
+
+File: trump.txt
+
+the	,	0.0018153317514396966
+,	the	0.0018153317514396966
+.	I	0.0016908789485707344
+,	I	0.0014553952834818256
+to	.	0.0014090657904756122
+you	.	0.0012484625928515102
+,	to	0.0012128294029015215
+,	a	0.0011658811679504948
+it	.	0.0011454341264511426
+you	,	0.0010745929333234986
+,	you	0.0010745929333234986
+,	and	0.001045902345297871
+and	,	0.001045902345297871
+,	it	0.0009859129339715594
+it	,	0.0009859129339715594
+of	.	0.0009575586877210612
+that	.	0.0009030142055091019
+,	that	0.0007772541119669966
+that	,	0.0007772541119669966
+in	.	0.0007454412568967755
+
+
+
+
+20 CON PROBABILITÀ CONDIZIONATA MASSIMA
+
+
+File: biden.txt
+
+Social		Security	1.0000833680700292
+Dr.		Fauci		1.0000833680700292
+Moody		's		1.0000833680700292
+Thank		you		1.0000833680700292
+White		House		1.0000833680700292
+United		States		1.0000833680700292
+Care		Act		1.0000833680700292
+grew		up		1.0000833680700292
+Wall		Street		1.0000833680700292
+long		time		1.0000833680700292
+prevailing	wage		1.0000833680700292
+By		the		1.0000833680700292
+talking	about		1.0000833680700292
+used		to		1.0000833680700292
+part		of		1.0000833680700292
+Joey		,		1.0000833680700292
+800		billion	1.0000833680700292
+Do		n't		1.0000833680700292
+ca		n't		1.0000833680700292
+less		than		1.0000833680700292
+
+
+
+
+20 CON PROBABILITÀ CONDIZIONATA MASSIMA
+
+
+File: trump.txt
+
+meet		with		1.000039832702649
+rid		of		1.000039832702649
+Thank		you		1.000039832702649
+favored	nations	1.000039832702649
+wo		n't		1.000039832702649
+White		House		1.000039832702649
+Sleepy		Joe		1.000039832702649
+Wow		.		1.000039832702649
+trying		to		1.000039832702649
+Second		Amendment	1.000039832702649
+Middle		East		1.000039832702649
+Think		of		1.000039832702649
+Can		you		1.000039832702649
+28		billion	1.000039832702649
+Well		,		1.000039832702649
+ca		n't		1.000039832702649
+voter		ID		1.000039832702649
+anymore	.		1.000039832702649
+sleepy		Joe		1.000039832702649
+Hey		,		1.000039832702649
+
+
+
+
+20 CON FORZA ASSOCIATIVA (LMI) MASSIMA
+
+
+File: biden.txt
+
+going	to		477.7306577790746
+.	We		322.96031203056594
+'re	going		270.15520289062755
+I	'm		253.1892124536001
+.	And		222.49315964746535
+We	're		207.9743257895869
+That	's		144.6124301519771
+It	's		138.42309541875304
+we	're		138.30176452792867
+.	It		133.0135466892647
+.	You		133.0135466892647
+.	The		132.14761253244822
+in	the		129.8300161162815
+.	I		128.5519681664407
+,	``		112.97712778898989
+Donald	Trump		111.75046696020749
+.	He		106.59760953057648
+.	But		104.47268067835088
+.	''		100.98141671769996
+Social	Security	100.90954457919386
+
+
+
+
+20 CON FORZA ASSOCIATIVA (LMI) MASSIMA
+
+
+File: trump.txt
+
+do	n't	599.4250716893039
+.	We	582.0684066180507
+,	``	528.5410937532395
+.	And	518.0116059591738
+going	to	468.1009506347114
+.	I	436.23199711152847
+It	's	402.5826634797001
+.	''	401.2656361773261
+I	'm	373.43428918591025
+.	They	370.2911589372811
+said	,	349.9848044193608
+.	You	341.77867966637706
+.	It	326.8770136134116
+,	but	316.8557655136274
+I	said	312.1138812304188
+right	?	288.88831760628165
+We	're	272.2536454788109
+.	But	257.77980750258064
+want	to	254.73952853768128
+we	're	240.19958145492697
+
+
+
+
+FRASE PIÙ PROBABILE PER OGNI LUNGHEZZA DI FRASE DA 8 A 15
+
+
+File: biden.txt
+
+
+Frase: ['I', "'m", 'going', 'to', 'have', 'to', 'leave', '.']
+
+Lunghezza: 8
+
+Probabilità stimata: 0.012028233938346298
+
+
+Frase: ['I', 'see', 'it', 'from', 'Claymont', ',', 'for', 'real', '.']
+
+Lunghezza: 9
+
+Probabilità stimata: 0.012028233938346298
+
+
+Frase: ['I', 'want', 'to', 'say', 'hello', 'to', 'all', 'of', 'Erie', '.']
+
+Lunghezza: 10
+
+Probabilità stimata: 0.012028233938346298
+
+
+Frase: ['I', "'m", 'so', 'grateful', 'to', 'have', 'earned', 'UA', "'s", 'endorsement', '.']
+
+Lunghezza: 11
+
+Probabilità stimata: 0.012028233938346298
+
+
+Frase: ['We', 'ended', 'up', 'in', 'a', 'steel', 'town', 'called', 'Claymont', ',', 'Delaware', '.']
+
+Lunghezza: 12
+
+Probabilità stimata: 0.005978104292711034
+
+
+Frase: ['I', 'do', "n't", 'respect', 'people', 'based', 'on', 'whether', 'they', 'own', 'a', 'mansion', '.']
+
+Lunghezza: 13
+
+Probabilità stimata: 0.012028233938346298
+
+
+Frase: ['I', 'am', 'more', 'optimistic', 'about', 'America', "'s", 'chances', 'today', 'than', 'I', 'ever', 'been', '.']
+
+Lunghezza: 14
+
+Probabilità stimata: 0.012028233938346298
+
+
+Frase: ['I', 'do', "n't", 'judge', 'them', 'based', 'on', 'whether', 'they', 'belong', 'to', 'a', 'country', 'club', '.']
+
+Lunghezza: 15
+
+Probabilità stimata: 0.012028233938346298
+
+
+
+
+
+FRASE PIÙ PROBABILE PER OGNI LUNGHEZZA DI FRASE DA 8 A 15
+
+
+File: trump.txt
+
+
+Frase: ['I', 'do', "n't", 'care', 'what', 'you', 'say', '.']
+
+Lunghezza: 8
+
+Probabilità stimata: 0.020305121685434073
+
+
+Frase: ['I', 'do', "n't", 'want', 'to', 'talk', 'about', 'it', '.']
+
+Lunghezza: 9
+
+Probabilità stimata: 0.020305121685434073
+
+
+Frase: ['I', 'will', 'not', 'tell', 'the', 'people', 'of', 'The', 'Villages', '.']
+
+Lunghezza: 10
+
+Probabilità stimata: 0.020305121685434073
+
+
+Frase: ['I', 'said', ',', '``', 'Get', 'a', 'field', 'or', 'do', 'something', '.']
+
+Lunghezza: 11
+
+Probabilità stimata: 0.020305121685434073
+
+
+Frase: ['I', 'said', ',', '``', 'Joe', ',', 'you', 'built', 'the', 'cages', '.', "''"]
+
+Lunghezza: 12
+
+Probabilità stimata: 0.020305121685434073
+
+
+Frase: ['I', 'took', 'very', 'rapid', 'action', 'to', 'ban', 'travel', 'from', 'China', 'and', 'Europe', '.']
+
+Lunghezza: 13
+
+Probabilità stimata: 0.020305121685434073
+
+
+Frase: ['I', 'said', ',', '``', 'Joe', ',', 'you', 'do', "n't", 'know', 'anything', 'about', 'it', '.']
+
+Lunghezza: 14
+
+Probabilità stimata: 0.020305121685434073
+
+
+Frase: ['I', 'said', ',', '``', '2014', ',', 'I', 'did', "n't", 'happen', 'to', 'be', 'president', '.', "''"]
+
+Lunghezza: 15
+
+Probabilità stimata: 0.020305121685434073
+
+
+
+
+
+15 NOMI PROPRI DI PERSONA PIÙ FREQUENTI
+
+
+File: biden.txt
+
+ Trump			14
+ Donald Trump		13
+ Moody			5
+ Look			5
+ Fauci			5
+ Joey			4
+ Rick			3
+ Barack		3
+ Honey			3
+ Mitch McConnell	3
+ Marcy			3
+ Joe			2
+ Woodward		2
+ Claymont		2
+ Make			2
+
+
+
+
+15 NOMI PROPRI DI PERSONA PIÙ FREQUENTI
+
+
+File: trump.txt
+
+ Joe			28
+ Joe Biden		23
+ Biden			19
+ Sonny			14
+ Trump			12
+ Hunter		7
+ Sleepy Joe		7
+ Bernie		6
+ Obama			5
+ Baron Trump		5
+ North Carolina	5
+ John			5
+ Nobody		5
+ Okay			4
+ Look			4
+
+
+
+
+15 NOMI PROPRI DI LUOGO PIÙ FREQUENTI
+
+
+File: biden.txt
+
+ America		29
+ American		28
+ Pennsylvania		12
+ Scranton		10
+ United States		8
+ Nevada		6
+ Erie			4
+ Delaware		4
+ Cleveland		3
+ Gettysburg		3
+ Lordstown		3
+ Claymont		2
+ Ohio			2
+ Toledo		2
+ Irish			2
+
+
+
+
+15 NOMI PROPRI DI LUOGO PIÙ FREQUENTI
+
+
+File: trump.txt
+
+ America		29
+ American		28
+ Pennsylvania		12
+ Scranton		10
+ United States		8
+ Nevada		6
+ Erie			4
+ Delaware		4
+ Cleveland		3
+ Gettysburg		3
+ Lordstown		3
+ Claymont		2
+ Ohio			2
+ Toledo		2
+ Irish			2
+
+
+
+
